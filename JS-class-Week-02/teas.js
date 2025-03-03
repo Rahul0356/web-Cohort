@@ -24,6 +24,31 @@ for (let i=0;i<teas.length;i++){
   console.log(teas[i]);
 }
 
+//Problem:use a for loop to count how many teas are caffeinated (excluding "Herbal Tea").
+let caffeinatedMyTeas=0
+for(let i=0;i<teas.length;i++){
+  if(teas[i] !== "Herbal Tea"){
+    caffeinatedMyTeas++
+  }
+}
 
 
+//problem:Use a for loop to  create a new array with all tea names in uppercase
+const uppercase =[]
+for(let i=0;i<teas.length;i++){
+  uppcaseTeas.push(teas[i].toUpperCase())
+}
+
+//problem:USe a for loop to find the name with the most characters.
+let longestTea =""
+for(let i=0;i<teas.length;i++){
+  if(teas[i].length>longestTea.length){
+   longestTea =teas[i]
+  }
+}
+//problem: USe a for loop to reverse the order of teas in the array
+const reversedTeas =[]
+for(let i=teas.length-1;i>=0;i++){
+  reversedArray.push(teas[i]);
+}
 console.log(teas);
