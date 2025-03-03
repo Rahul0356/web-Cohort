@@ -20,7 +20,9 @@ if(index>-1){
    console.log(teas.sort());
 
 //problem:Use a for loop to print each type of tea in the array
-for ()
+for (let i=0;i<teas.length;i++){
+  console.log(teas[i]);
+}
 
 
 
