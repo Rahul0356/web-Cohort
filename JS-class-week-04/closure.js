@@ -1,4 +1,4 @@
-let fname = 'Rahul'
+let fname = 'Rahul';
 
 function sayName(){
     console.log(`Inside SayName fb the value of fname is`,fname);
