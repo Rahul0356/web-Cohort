@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.container {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color:  #bdf5bd;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.mood-form {
+    margin-bottom: 20px;
+}
+
+select {
+    font-size: 18px;
+    padding: 5px;
+}
+
+button {
+    margin-left: 10px;
+    padding: 8px 15px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#mood-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#mood-list li {
+    font-size: 18px;
+    margin: 5px 0;
+    padding: 8px;
+    background: #ddd;
+    border-radius: 5px;
+}
