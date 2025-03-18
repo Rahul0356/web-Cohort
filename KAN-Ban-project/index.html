@@ -8,11 +8,11 @@
 </head>
 <body>
     <div class="container">
-   <div class="board">
+   <div id="todo-board" class="board">
    <h4>Todo</h4>
    <div class="items">
-    <p class="item">Learn MERN Stack</p>
-    <p class="item">Learn DevOps</p>
+    <p  draggable="true" class="item">Learn MERN Stack</p>
+    <p draggable="true" class="item">Learn DevOps</p>
    </div>
 </div>
    <div class="board">
@@ -22,6 +22,7 @@
    <h4>Done</h4>
 </div>
     </div>
-    
+    <button id="add-task-btn">Add Task</button>
+    <script src="script.js"></script>
 </body>
 </html>
