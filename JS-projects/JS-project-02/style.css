@@ -8,7 +8,6 @@ body {
     align-items: center;
     margin: 0;
 }
-
 .container {
     background: #2a2a72;
     color: #ffffff;
@@ -17,7 +16,6 @@ body {
     text-align: center;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
-
 h1 {
     font-size: 2rem;
     margin-bottom: 15px;
@@ -47,11 +45,9 @@ button {
     cursor: pointer;
     transition: 0.3s ease;
 }
-
 button:hover {
     background: #ff3e6b;
 }
-
 #CountDownDisplay {
     font-size: 1.5rem;
     margin-top: 15px;
