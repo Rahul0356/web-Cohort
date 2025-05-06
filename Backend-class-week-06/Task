@@ -1,0 +1,23 @@
+Task
+
+user
+email
+password
+username
+ph_number
+
+
+note title
+id
+titlecolor
+created_by_user_id
+
+
+sub_note
+idnote_id(Parent ID)
+title
+desc
+completed:Bool
+content
+
+
